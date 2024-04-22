@@ -140,6 +140,7 @@
 
 	.home__description {
 		max-width: initial;
+		min-width: 100%;
 		margin-bottom: var(--mb-2-5);
 	}
 
