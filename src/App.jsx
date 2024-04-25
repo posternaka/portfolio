@@ -1,8 +1,9 @@
 import About from './components/about/About';
 import Header from './components/header/Header';
 import Home from './components/home/Home';
-import Skills from './components/skills/Skills';
+import Reviews from './components/reviews/Reviews';
 import Services from './components/services/Services';
+import Skills from './components/skills/Skills';
 
 import './index.css';
 
@@ -16,6 +17,7 @@ const App = () => {
 				<About />
 				<Skills />
 				<Services />
+				<Reviews />
 			</main>
 		</>
 	);
