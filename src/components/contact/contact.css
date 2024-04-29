@@ -82,7 +82,6 @@
 	height: 100%;
 	border: 1px solid rgba(0, 0, 0, 0.3);
 	background: none;
-	color: var(--text-color);
 	outline: none;
 	border-radius: 0.75rem;
 	padding: 1.5rem;
@@ -105,6 +104,29 @@
 
 .contact__form-area textarea {
 	resize: none;
+}
+
+.contact__form-message {
+	display: none;
+	gap: 0.5rem;
+	font-size: var(--normal-font-size);
+	border-radius: 1rem;
+	padding: 1rem;
+	margin-bottom: var(--mb-2);
+}
+
+.contact__form-message-active {
+	display: flex;
+}
+
+.message-success {
+	color: green;
+	background-color: rgba(65, 255, 0, 0.2);
+}
+
+.message-error {
+	color: red;
+	background-color: rgba(255, 0, 0, 0.2);
 }
 
 /* breakpoints */
