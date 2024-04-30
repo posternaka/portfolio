@@ -21,7 +21,7 @@ const Contact = () => {
 					setStatusMessage({ success: true, error: false });
 					e.target.reset();
 				},
-				(error) => {
+				error => {
 					setStatusMessage({ success: false, error: true });
 					console.log(error);
 				}
@@ -48,7 +48,7 @@ const Contact = () => {
 
 							<a
 								href='mailto:nik.petrenko97@gmail.com'
-								className='contact__button'
+								className='contact__button button--flex'
 							>
 								Write me
 								<i className='uil uil-angle-right contact__card-arrow'></i>
@@ -61,7 +61,10 @@ const Contact = () => {
 							<h3 className='contact__card-title'>Telegram</h3>
 							<span className='contact__card-data'>@posternaka</span>
 
-							<a href='https://t.me/posternaka' className='contact__button'>
+							<a
+								href='https://t.me/posternaka'
+								className='contact__button button--flex'
+							>
 								Write me
 								<i className='uil uil-angle-right contact__card-arrow'></i>
 							</a>
@@ -75,7 +78,7 @@ const Contact = () => {
 
 							<a
 								href='https://www.linkedin.com/in/nikitapetrenko97'
-								className='contact__button'
+								className='contact__button button--flex'
 							>
 								Write me
 								<i className='uil uil-angle-right contact__card-arrow'></i>
