@@ -64,6 +64,8 @@
 
 .qualification__calendar {
 	font-size: var(--small-font-size);
+	display: flex;
+	gap: 0.5rem;
 }
 
 .qualification__rounder {
@@ -78,7 +80,7 @@
 	display: block;
 	width: 1px;
 	height: 100%;
-	background-color: var(--text-color);
+	background-color: var(--title-color);
 	transform: translate(6px, -7px);
 }
 

@@ -12,16 +12,22 @@
 .home__social {
 	display: grid;
 	grid-template-columns: max-content;
-	row-gap: 1rem;
+	row-gap: 1.5rem;
 }
 
 .home__social-icon {
 	font-size: 1.25rem;
 	color: var(--title-color);
+	padding: 0.5rem;
+	border: 1px solid white;
+	border-radius: 0.8rem;
+	transition: border 0.3s ease, box-shadow 0.3s ease;
 }
 
 .home__social-icon:hover {
 	color: var(--title-color-dark);
+	border: 1px solid var(--title-color);
+	box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.2);
 }
 
 .home__title {
