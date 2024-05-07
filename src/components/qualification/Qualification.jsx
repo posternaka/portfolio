@@ -47,10 +47,12 @@ const Qualification = () => {
 					>
 						<div className='qualification__data'>
 							<div>
-								<h3 className='qualification__title'>Web</h3>
-								<span className='qualification__subtitle'>Blr - Academy</span>
+								<h3 className='qualification__title'>HTML Academy</h3>
+								<span className='qualification__subtitle'>
+									HTML & CSS courses
+								</span>
 								<div className='qualification__calendar'>
-									<i className='uil uil-calendar-alt'></i>2017 - 2021
+									<i className='uil uil-calendar-alt'></i>2022 - 2022
 								</div>
 							</div>
 
@@ -69,42 +71,12 @@ const Qualification = () => {
 							</div>
 
 							<div>
-								<h3 className='qualification__title'>Front</h3>
-								<span className='qualification__subtitle'>Blr - Academy</span>
+								<h3 className='qualification__title'>Redev</h3>
+								<span className='qualification__subtitle'>
+									Frontend courses
+								</span>
 								<div className='qualification__calendar'>
-									<i className='uil uil-calendar-alt'></i>2017 - 2021
-								</div>
-							</div>
-						</div>
-
-						<div className='qualification__data'>
-							<div>
-								<h3 className='qualification__title'>Back</h3>
-								<span className='qualification__subtitle'>Blr - Academy</span>
-								<div className='qualification__calendar'>
-									<i className='uil uil-calendar-alt'></i>2017 - 2021
-								</div>
-							</div>
-
-							<div>
-								<span className='qualification__rounder'></span>
-								<span className='qualification__line'></span>
-							</div>
-						</div>
-
-						<div className='qualification__data'>
-							<div></div>
-
-							<div>
-								<span className='qualification__rounder'></span>
-								<span className='qualification__line'></span>
-							</div>
-
-							<div>
-								<h3 className='qualification__title'>Qa</h3>
-								<span className='qualification__subtitle'>Blr - Academy</span>
-								<div className='qualification__calendar'>
-									<i className='uil uil-calendar-alt'></i>2017 - 2021
+									<i className='uil uil-calendar-alt'></i>2021 - 2022
 								</div>
 							</div>
 						</div>
@@ -119,10 +91,12 @@ const Qualification = () => {
 					>
 						<div className='qualification__data'>
 							<div>
-								<h3 className='qualification__title'>Front</h3>
-								<span className='qualification__subtitle'>Blr - Academy</span>
+								<h3 className='qualification__title'>Lerna</h3>
+								<span className='qualification__subtitle'>
+									Frontend Developer
+								</span>
 								<div className='qualification__calendar'>
-									<i className='uil uil-calendar-alt'></i>2017 - 2021
+									<i className='uil uil-calendar-alt'></i>2023 - 2024
 								</div>
 							</div>
 
@@ -141,43 +115,30 @@ const Qualification = () => {
 							</div>
 
 							<div>
-								<h3 className='qualification__title'>Web</h3>
-								<span className='qualification__subtitle'>Blr - Academy</span>
+								<h3 className='qualification__title'>Itransition</h3>
+								<span className='qualification__subtitle'>
+									Trainee Fullstack Developer
+								</span>
 								<div className='qualification__calendar'>
-									<i className='uil uil-calendar-alt'></i>2017 - 2021
+									<i className='uil uil-calendar-alt'></i>2023 - 2023
 								</div>
 							</div>
 						</div>
 
 						<div className='qualification__data'>
 							<div>
-								<h3 className='qualification__title'>Qa</h3>
-								<span className='qualification__subtitle'>Blr - Academy</span>
+								<h3 className='qualification__title'>Redev</h3>
+								<span className='qualification__subtitle'>
+									Trainee Frontend Developer
+								</span>
 								<div className='qualification__calendar'>
-									<i className='uil uil-calendar-alt'></i>2017 - 2021
+									<i className='uil uil-calendar-alt'></i>2022 - 2022
 								</div>
 							</div>
 
 							<div>
 								<span className='qualification__rounder'></span>
 								<span className='qualification__line'></span>
-							</div>
-						</div>
-
-						<div className='qualification__data'>
-							<div></div>
-
-							<div>
-								<span className='qualification__rounder'></span>
-								<span className='qualification__line'></span>
-							</div>
-
-							<div>
-								<h3 className='qualification__title'>Back</h3>
-								<span className='qualification__subtitle'>Blr - Academy</span>
-								<div className='qualification__calendar'>
-									<i className='uil uil-calendar-alt'></i>2017 - 2021
-								</div>
 							</div>
 						</div>
 					</div>
