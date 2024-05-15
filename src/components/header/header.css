@@ -23,7 +23,7 @@
 
 .nav__list {
 	display: flex;
-	column-gap: 2rem;
+	column-gap: 0.7rem;
 }
 
 .nav__link {
@@ -33,7 +33,11 @@
 	font-size: var(--small-font-size);
 	color: var(--title-color);
 	font-weight: var(--font-medium);
-	transition: color 0.3s;
+	transition: color 0.3s, letter-spacing 0.4s;
+}
+
+.nav__item {
+	width: 90px;
 }
 
 .nav__icon,
@@ -47,9 +51,13 @@
 }
 
 /* active link */
-.active__link,
+.active__link {
+	color: rgb(0, 80, 67);
+}
+
 .nav__link:hover {
-	color: rgb(68, 0, 255);
+	color: rgb(0, 156, 132);
+	letter-spacing: 0.08rem;
 }
 
 /* breakpoints */
