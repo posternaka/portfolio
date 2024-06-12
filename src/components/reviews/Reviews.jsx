@@ -8,7 +8,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 const Reviews = () => {
 	return (
-		<section className='reviews container section'>
+		<section id='reviews' className='reviews container section'>
 			<h2 className='section__title'>My clients say</h2>
 			<span className='section__subtitle'>Reviews</span>
 

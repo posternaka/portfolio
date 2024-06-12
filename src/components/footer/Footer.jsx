@@ -20,8 +20,20 @@ const Footer = () => {
 					</li>
 
 					<li>
+						<a href='#qualification' className='footer__link'>
+							Qualification
+						</a>
+					</li>
+
+					<li>
 						<a href='#reviews' className='footer__link'>
 							Reviews
+						</a>
+					</li>
+
+					<li>
+						<a href='#contact' className='footer__link'>
+							Contact me
 						</a>
 					</li>
 				</ul>
@@ -50,7 +62,9 @@ const Footer = () => {
 					</a>
 				</div>
 
-				<span className="footer__copy">Nikita Petrenko. All right reserved</span>
+				<span className='footer__copy'>
+					Nikita Petrenko. All right reserved
+				</span>
 			</div>
 		</footer>
 	);
